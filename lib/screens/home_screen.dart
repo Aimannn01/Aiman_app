@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:aiman_app/widgets/home_app_bar.dart';
 import 'package:aiman_app/screens/post_screen.dart';
 
-class HomePage extends StatelessWidget {
- 
+class HomeScreen extends StatelessWidget {
 
  var category = [
   'Best Places',
@@ -51,7 +50,6 @@ class HomePage extends StatelessWidget {
                               color: Colors.black,
                               borderRadius: BorderRadius.circular(15),
                               image: DecorationImage(
-                               // bali.jpg
                                image: AssetImage("images/city${index+1}.jpg"),
                                fit: BoxFit.cover,
                                opacity: 0.7,

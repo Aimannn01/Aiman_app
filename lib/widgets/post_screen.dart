@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:aiman_app/widgets/post_app_bar.dart';
+import 'package:aiman_app/widgets/post_bottom_bar.dart';
 
 class PostScreen extends StatelessWidget {
   const PostScreen({super.key});
